@@ -2,5 +2,7 @@ package geometry
 
 //Cube area
 func Cube(n int) int {
-	return n * n * n
+	if n ==0{
+		fmt.Println("Zore is not allowed")
+	}else return n * n * n
 }
